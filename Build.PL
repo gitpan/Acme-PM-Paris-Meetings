@@ -12,6 +12,7 @@ Module::Build->new(
         'DateTime::TimeZone' => 0,
         ($^O eq 'hpux' ? ('DateTime::TimeZone::HPUX' => '0.08') : ()),
         'DateTime::Format::ICal' => 0,
+        'Exporter' => 0,
     },
     build_requires => {
         'Test::More' => 0,

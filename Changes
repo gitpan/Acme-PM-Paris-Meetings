@@ -1,6 +1,13 @@
 Revision history for Acme-PM-Paris-Meetings
 
-0.01    2009-05-13T18:23:00 +0200 (METDST)
-        First version, released just before a Paris.pm meeting.
-        TODO: doc in french.
+200905.02  2009-05-14T18:58:00 +0200 (METDST)
+           Changed numbering scheme to show more clearly how old is the installed version.
+           Added 'next_meeting' function.
+           Added 'paris-pm' script. TODO: doc.
+           Fixed the ICal expression which limited the recurrence to 12 occurrences.
+           Added tests: t/basic.t.
+
+0.01       2009-05-13T18:23:00 +0200 (METDST)
+           First version, released just before a Paris.pm meeting.
+           TODO: doc in french.
 

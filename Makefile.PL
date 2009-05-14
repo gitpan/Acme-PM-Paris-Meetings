@@ -10,7 +10,8 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'DateTime::TimeZone' => 0,
-                           'DateTime::Format::ICal' => 0
+                           'DateTime::Format::ICal' => 0,
+                           'Exporter' => 0
                          }
         )
 ;

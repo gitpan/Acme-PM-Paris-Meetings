@@ -1,6 +1,6 @@
 ---
 name: Acme-PM-Paris-Meetings
-version: 200905.02
+version: 200905.03
 author:
   - 'Olivier Mengué <dolmen@cpan.org>'
 abstract: Get the date/time of the next Paris.pm meeting!
@@ -16,7 +16,7 @@ build_requires:
 provides:
   Acme::PM::Paris::Meetings:
     file: lib/Acme/PM/Paris/Meetings.pm
-    version: 200905.02
+    version: 200905.03
 generated_by: Module::Build version 0.33
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html

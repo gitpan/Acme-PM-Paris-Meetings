@@ -5,7 +5,9 @@ WriteMakefile
           'PL_FILES' => {},
           'INSTALLDIRS' => 'site',
           'NAME' => 'Acme::PM::Paris::Meetings',
-          'EXE_FILES' => [],
+          'EXE_FILES' => [
+                           'script/paris-pm'
+                         ],
           'VERSION_FROM' => 'lib/Acme/PM/Paris/Meetings.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,

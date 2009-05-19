@@ -14,18 +14,19 @@ Acme::PM::Paris::Meetings - Get the date/time of the next Paris.pm meeting!
 
 =head1 VERSION
 
-Version 200905.02
+Version 200905.03
 
 =cut
 
-our $VERSION = '200905.02';
+our $VERSION = '200905.03';
 
 
 =head1 SYNOPSIS
 
 Using the 'paris-pm' script:
+
     $ paris-pm -3
-    
+
 
 One-liner:
 
@@ -122,7 +123,7 @@ Olivier MenguE<eacute>, C<< <dolmen at cpan.org> >>
 
 Let's hope a recent release of the module has been released and you are using it!
 
-You can still check L<http://paris.mongueurs.net> before visiting us.
+You can still check L<http://paris.mongueurs.net/> before visiting us.
 
 
 Please report any bugs or feature requests to C<bug-acme-pm-paris-meetings at rt.cpan.org>, or through
@@ -161,6 +162,7 @@ L<http://search.cpan.org/dist/Acme-PM-Paris-Meetings/>
 
 =head1 ACKNOWLEDGEMENTS
 
+The cool guys from Paris.pm L<http://paris.mongueurs.net/>
 
 =head1 COPYRIGHT & LICENSE
 

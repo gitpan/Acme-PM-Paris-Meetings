@@ -1,5 +1,8 @@
 Revision history for Acme-PM-Paris-Meetings
 
+200905.03  2009-05-19T19:51:00 +0200 (METDST)
+           Added missing installation of 'paris-pm' script.
+
 200905.02  2009-05-14T18:58:00 +0200 (METDST)
            Changed numbering scheme to show more clearly how old is the installed version.
            Added 'next_meeting' function.

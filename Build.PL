@@ -8,6 +8,7 @@ Module::Build->new(
     license             => 'perl',
     dist_author         => 'Olivier Mengué <dolmen@cpan.org>',
     dist_version_from   => 'lib/Acme/PM/Paris/Meetings.pm',
+    script_files        => 'script/paris-pm',
     requires => {
         'DateTime::TimeZone' => 0,
         ($^O eq 'hpux' ? ('DateTime::TimeZone::HPUX' => '0.08') : ()),

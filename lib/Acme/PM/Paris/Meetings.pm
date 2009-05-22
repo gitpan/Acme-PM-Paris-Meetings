@@ -14,11 +14,11 @@ Acme::PM::Paris::Meetings - Get the date/time of the next Paris.pm meeting!
 
 =head1 VERSION
 
-Version 200905.03
+Version 200905.04
 
 =cut
 
-our $VERSION = '200905.03';
+our $VERSION = '200905.04';
 
 
 =head1 SYNOPSIS
